@@ -1,0 +1,43 @@
+#form{
+  margin: 20px;
+}
+
+input{
+  /*display: block;*/
+  margin-bottom: 10px;
+}
+
+.inputbasic {
+  border: 1px solid #ffc100;
+  border-radius: 5px;
+  padding : 3px;
+  transition: all 0.5s linear;
+}
+
+.inputbasic: focus{
+  background-color: #ffc100;
+  color : black;
+}
+
+.mail{
+  width: 300px;
+}
+
+.contenu{
+  width: 500px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.bouton{
+  background-color: #ffc100;
+  border: 1px solid #382100;
+  color: #382100;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  width: 150px;
+  height: 30px;
+}
