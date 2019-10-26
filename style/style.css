@@ -66,8 +66,10 @@ nav li a{
 .menu2 nav{
 	text-align: center;
 	list-style-type: none;
-	margin-left: 450px;
-	padding-left: 0px;
+	/*margin-left: 450px;
+	padding-left: 0px;*/
+	width: 1000px;
+	margin: auto;
 }
 
 .menu2 ul{
