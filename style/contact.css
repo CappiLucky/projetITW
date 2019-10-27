@@ -7,6 +7,10 @@ input{
   margin-bottom: 10px;
 }
 
+textarea{
+  resize: none;
+}
+
 .inputbasic {
   border: 1px solid #ffc100;
   border-radius: 5px;
@@ -27,7 +31,6 @@ input{
   width: 500px;
   height: 100px;
   display: block;
-  margin: auto;
 }
 
 .bouton{
