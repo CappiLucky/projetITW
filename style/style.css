@@ -16,12 +16,12 @@ body{
 	border-top: 50px;
 	width: 1000px;
 	height: 900px;
-  margin: auto;
+  	margin: auto;
 /*  background-color: #4f4f4f;	*/
 	background-color: rgba(0, 0, 0, 0.85);
 	opacity: 0.85;
-  color: white;
-  border-radius: 10px;
+  	color: white;
+  	border-radius: 10px;
 }
 
 header{
@@ -52,7 +52,7 @@ nav{
 
 .element{
 	display: inline-block;
-	width: 180px;
+	width: 150px;
 	height: 20px;
 	margin: 0;
 	padding: 0;
@@ -63,11 +63,11 @@ nav{
 	border-left: 2px solid #382100;
 	border-right: 2px solid #382100;
 	line-height: auto;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 nav li a{
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	color: #ffc100;
 }
