@@ -4,15 +4,13 @@
    overflow: hidden;
    border: 3px solid #ffc100;
    margin: auto;
-
-   
 }
 
 .slideshow ul {
     /* 4 images donc 4 x 100% */
    width: 400%;
    height: 200px;
-   padding:0; 
+   padding:0;
    margin:0;
    list-style: none;
 }
