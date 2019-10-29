@@ -1,0 +1,31 @@
+#bloc_voyage{
+  padding: 10px;
+  position: relative;
+  display: block;
+}
+
+.produit{
+  width: 310px;
+  height: 300px;
+  padding: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.planete{
+  width: 100px;
+  height: 100px;
+}
+
+.destination{
+  color: #ffc100;
+  text-align: center;
+}
+
+.description{}
+
+.prix{
+  border: 1px solid #ffc100;
+  padding: 5px;
+  text-align: center;
+}

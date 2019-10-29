@@ -83,6 +83,12 @@ nav li a{
 	color: #ffc100;
 }
 
+h3{
+  color: #ffc100;
+	margin-left: 30px;
+	text-decoration: underline;
+}
+
 .menu2 nav{
 	text-align: center;
 	list-style-type: none;
