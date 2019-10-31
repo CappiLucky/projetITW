@@ -44,7 +44,8 @@ p {
 }
 
 h3 {
-   font-family: StarJedi;
+   font-family: STARWARS;
    font-size: 15px;
    color: #ffc100;   
+   text-align: left;
 }
