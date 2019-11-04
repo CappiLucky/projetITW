@@ -1,0 +1,41 @@
+#block_logement{
+  width: 1000px;
+  margin: auto;
+  display: block;
+  padding: 5px;
+}
+
+.produit{
+  width: 900px;
+  height: 170px;
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#image{
+  position: relative;
+  display: inline-block;
+}
+
+.habitat{
+  width: 350px;
+  height: 130px;
+}
+
+#texte{
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.titre{
+  color: #ffc100;
+  text-align: center;
+}
+
+.prix{}
+
+.caracteristique{}
+
+.description{}
