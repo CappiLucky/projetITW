@@ -21,3 +21,18 @@ a:hover{
   text-align: right;
   font-size: 12px;
 }
+
+sup{
+	font-size: 10px;
+}
+
+.texteclig{
+	position: inline;
+	animation: Clignotement 1s infinite;
+}
+
+@keyframes Clignotement{
+	0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
+}
