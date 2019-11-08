@@ -1,8 +1,10 @@
 #mentionlegale{
+	position: inline;
   margin-left: 30px;
 }
 
 p{
+	position: inline;
   font-weight: 400;
 }
 
@@ -28,6 +30,7 @@ sup{
 
 .texteclig{
 	position: inline;
+	width: auto;
 	animation: Clignotement 1s infinite;
 }
 
