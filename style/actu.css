@@ -3,3 +3,15 @@
   margin: auto;
   border: 3px solid #ffc100;
 }
+
+#actu{
+	margin: 10px;
+}
+
+.produit{}
+
+.titre{
+  color: #ffc100;
+}
+
+.descr{}
