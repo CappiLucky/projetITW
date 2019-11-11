@@ -1,19 +1,29 @@
 #iframe{
   width: 200px;
   margin: auto;
-  border: 3px solid #ffc100;
+  border: 1px solid #ffc100;
 }
 
 #actu{
 	margin: 10px;
 }
 
-.produit{}
+.produit{
+  display: inline-block;
+  width: 700px;
 
-a{}
+}
+
+.img_actu{
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ffc100;
+}
 
 .titre{
   color: #ffc100;
 }
 
-.descr{}
+.descr{
+  font-size: 12px;
+}
