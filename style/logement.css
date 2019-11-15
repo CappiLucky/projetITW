@@ -32,7 +32,8 @@
 
 .titre{
   color: #ffc100;
-  text-align: center;
+  text-align: left;
+  
 }
 
 .prix{
@@ -46,4 +47,6 @@
 
 .caracteristique{}
 
-.description{}
+.description{
+  font-style: italic;
+}
