@@ -53,6 +53,12 @@
   padding: 3px;
 }
 
+.note{
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
 .caracteristique{}
 
 .description{
