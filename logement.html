@@ -7,9 +7,11 @@
 	<link rel="shortcut icon" href="./images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/logement.css">
+	<script type="text/javascript" src="scripts/monnaie.js"></script>
 </head>
 
-<body>
+<body onload="cacher();">
+
 	<div id="factice">
 		<img src="images/factice.png" alt="Ce site est un faux" height="70">
 	</div>
@@ -77,8 +79,12 @@
 			</div>
 
 	</div> <!--fermeture du block-->
+
 	
-	<div id="monnaie" onmouseover="$('#monnaie').hide(); $('#monnaie').slideLeft();">
+	<img class="fleche" id="fleche_droite" src="images/images_fleches/droite.png" onmouseover="cacher()" alt="Cacher">
+	<img class="fleche" id="fleche_gauche" src="images/images_fleches/gauche.png" onmouseover="afficher()" alt="Afficher">
+
+	<div id="monnaie" class="monnaie">
 		<TABLE border=1>
 			<caption>Conversion des monnaies galactiques :</caption>
 			<TR>
@@ -137,6 +143,4 @@
 	</footer>
 </body>
 
-	<script src="jQuerry/jQuery.js"></script>
-    <script src="script/script.js"></script>
 </html>

@@ -76,3 +76,25 @@
   top: 300px;
   right: 0px;
 }
+
+
+@keyframes fondu {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+.monnaie_affiche {
+  transition-duration: 1s;
+  transform: translateX(0px);
+  animation-duration: 5s;
+  animation-name: fondu;
+  }
+
+.monnaie_cache {
+  transition-duration: 1.5s;
+  transform: translateX(400px);
+  }
