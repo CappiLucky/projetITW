@@ -1,3 +1,8 @@
+html{
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
 @font-face{
 	font-family: "STARWARS";
 	src: url("../polices/STARWARS/STARWARS.eot?") format("eot"),
@@ -16,7 +21,7 @@
 }
 
 body{
-	background: url('../images/fond.jpeg');
+	background: url('../images/image_main/fond.jpeg');
 	overflow: visible;
 }
 
