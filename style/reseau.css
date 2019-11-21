@@ -1,17 +1,26 @@
-#rapport {
-	width:800px;
-	height:500px;
+#rs{
+	margin-left: 10px;
 }
 
-.icone{
+#rapport {
+	width:800px;
+	height:450px;
+}
+
+#git_div{}
+
+#fb_div{}
+
+.icone1{
 	width: 50px;
 	height: 50px;
 }
 
-.text_icone{
-	
+.icone2{
+	width: 30px;
+	height: 30px;
 }
 
-#text_git{
-
+.text{
+	position: relative;
 }
