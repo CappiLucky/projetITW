@@ -7,9 +7,10 @@
 	<link rel="shortcut icon" href="./images/image_main/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="style/voyage.css">
+	<script type="text/javascript" src="scripts/monnaie.js"></script>
 </head>
 
-<body>
+<body onload="cacher();">
 	<div id="factice">
 		<img src="images/image_main/factice.png" alt="Ce site est un faux" height="70">
 	</div>
@@ -70,10 +71,54 @@
 			<p class="description">Cette lune foréstière très boisée permettera aux plus ferus de nature d'observer et d'étudier l'écosystème de cette planète.</p>
 			<p class="prix">600 peggat</p>
 		</div>
-
-
 	</div>
-	</div>
+</div>
+
+<div id="fleches">
+	<img id="fleche" class="fleche_droite" src="images/images_fleches/droite.png" onmouseover="cacher()" alt="Cacher">
+	<img id="fleche" class="fleche_gauche" src="images/images_fleches/gauche.png" onmouseover="afficher()" alt="Afficher">
+</div>
+
+<div id="monnaie" class="monnaie">
+	<TABLE>
+		<caption>Conversion des monnaies galactiques :</caption></br>
+		<TR>
+			<td><center> $ </center></td>
+			<th>Datarie</th>
+			<th>Wupiupi</th>
+			<th>Trugut</th>
+			<th>Peggat</th>
+		</TR>
+		<TR>
+			<th>Datarie</th>
+			<td>1</td>
+			<td>0.625</td>
+			<td>10</td>
+			<td>40</td>
+		</TR>
+		<TR>
+			<th>Wupiupi</th>
+			<td>1.6</td>
+			<td>1</td>
+			<td>16</td>
+			<td>64</td>
+		</TR>
+		<TR>
+			<th>Truggut</th>
+			<td>0.1</td>
+			<td>0.0625</td>
+			<td>1</td>
+			<td>4</td>
+		</TR>
+		<TR>
+			<th>Peggat</th>
+			<td>0.025</td>
+			<td>0.016</td>
+			<td>0.25</td>
+			<td>1</td>
+		</TR>
+	</TABLE>
+</div>
 
   <!-- bas de page: credits+contacts+mentionsl legal+reseau sociaux+ dev durable+newsletter -->
 	<footer>
