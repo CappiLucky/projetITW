@@ -66,6 +66,19 @@
   font-size: 12px;
 }
 
+#fleches{
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  width: 110px;
+}
+
+#fleche{
+  width: 100px;
+  height: 100px;
+}
+
+
 #monnaie{
   width: 400px;
   height: 180px;
