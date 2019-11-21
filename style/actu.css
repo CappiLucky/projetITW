@@ -1,7 +1,17 @@
 #iframe{
+  margin: 10px;
+  width: 1000px;
+  text-align: center;
+}
+
+iframe{
   width: 200px;
   margin: auto;
   border: 1px solid #ffc100;
+}
+
+h4, p {
+  text-align: left;
 }
 
 #actu{
@@ -11,12 +21,12 @@
 .produit{
   display: inline-block;
   width: 700px;
-
+  padding-top: 20px;
 }
 
 .img_actu{
   width: 200px;
-  height: 150px;
+  height: 130px;
   border: 1px solid #ffc100;
 }
 
