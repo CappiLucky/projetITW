@@ -48,6 +48,12 @@ p {
 h3 {
    font-family: STARWARS;
    font-size: 15px;
-   color: #ffc100;   
+   color: #ffc100;
    text-align: left;
+}
+
+.trimages{
+  width: 150px;
+  height: 180px;
+  align-items: center;
 }
