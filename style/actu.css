@@ -5,7 +5,8 @@
 }
 
 iframe{
-  width: 200px;
+  width: 800px;
+  height: 100px;
   margin: auto;
   border: 1px solid #ffc100;
 }
