@@ -39,6 +39,7 @@ body{
 
 
 header{
+	height: 125px;
 	display: inline-block;
 	align-items: flex-end;
 }

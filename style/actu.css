@@ -5,8 +5,8 @@
 }
 
 iframe{
-  width: 800px;
-  height: 100px;
+  width: 600px;
+  height: 230px;
   margin: auto;
   border: 1px solid #ffc100;
 }
@@ -29,6 +29,7 @@ h4, p {
   width: 200px;
   height: 130px;
   border: 1px solid #ffc100;
+  margin-left: 40px;
 }
 
 .titre{
@@ -37,4 +38,8 @@ h4, p {
 
 .descr{
   font-size: 12px;
+}
+
+.image_bas{
+  margin-bottom: 10px;
 }
