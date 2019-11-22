@@ -1,0 +1,91 @@
+%...import de package...
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{wrapfig, subcaption, setspace, booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage{fourier}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[francais]{babel}
+\usepackage{sectsty}
+\usepackage{url, lipsum}
+\usepackage{tgbonum}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[none]{hyphenat}
+\usepackage{endnotes}
+\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage[export]{adjustbox}
+\renewcommand{\footnote}[1]{\endnote{#1}}
+\renewcommand{\theendnote}{}
+
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+%...page de couverture...
+\begin{document}
+\begin{figure}[t]
+	\includegraphics[width=4cm]{logo_esiee.jpeg}
+\end{figure}
+
+\fontfamily{cmr} \selectfont
+\title{ \normalsize \textsc{}
+	\\ [2.0cm]
+	\HRule{0.5pt} \\
+	\LARGE \textbf{\uppercase{Rapport de projet ITW}
+	\HRule{2pt} \\ [0.5cm]
+	\normalsize  \vspace*{5\baselineskip}}
+}
+
+\author{Théo PERESSE-GOURBIL et Manon HERMANN}
+\date{Octobre-Novembre 2019}
+\maketitle
+\newpage
+
+%...page d'intro...
+\section{Introduction}
+    \input{intro.tex}
+\newpage
+
+%...table des matières...
+\tableofcontents
+ \vspace{4\baselineskip}
+\newpage
+
+
+%...début du rapport...
+\sectionfont{\scshape}
+
+\section{Arborescence}
+    \input{arborescence.tex}
+\newpage
+\section{Zoning}
+    \input{zonig.tex}
+\newpage
+\section{Organisation}
+    \input{orga.tex}
+\newpage
+\section{Technologie utilisé}
+    \input{technologie.tex}
+\newpage
+\section{Reporting du temps passé}
+    \input{timer.tex}
+\newpage
+\section{Problèmes et bugs rencontrés}
+    \input{probleme.tex}
+\newpage
+\section{Conclusion}
+    \input{conclu.tex}
+\newpage
+
+\end{document}
