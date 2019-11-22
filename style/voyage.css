@@ -100,3 +100,8 @@ th{
   background-color: #ffe38d;
   /*ffd34a*/
 }
+
+#logo_monnaie {
+  width: 20px;
+  height: 15px;
+}
